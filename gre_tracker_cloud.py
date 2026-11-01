@@ -19,7 +19,7 @@ import streamlit as st
 
 # ────────────────────────── Sprint configuration ──────────────────────────
 START = date(2026, 10, 16)
-END = date(2026, 10, 29)
+END = date(2026, 11, 5)
 DAYS = [START + timedelta(days=i) for i in range((END - START).days + 1)]
 
 # (database column, display label, daily minimum, daily aggressive target)
